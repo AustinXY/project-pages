@@ -109,3 +109,10 @@ h2 {
     font-size: 16px;
     max-width: 1000px;
 }
+
+@media (max-width:480px) {
+    .imgTxt {
+        /* font-weight: 10; */
+        font-size: 16px;
+    }
+}
