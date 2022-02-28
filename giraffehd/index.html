@@ -15,22 +15,26 @@
             <h1 class="title">GIRAFFE HD: A High-Resolution 3D-aware Generative Model</h1>
         </div>
         <h2>Abstract</h2>
-        <div class="textContainer">
-            <p id="abstractText">
-                3D-aware generative models have shown that the introduction of 3D information can lead to more controllable image generation.
-                 In particular, the current state-of-the-art model GIRAFFE can control each object's rotation, translation, scale, and scene
-                 camera pose without corresponding supervision. However, GIRAFFE only operates well when the image resolution is low.
-                 We propose GIRAFFE HD, a high-resolution 3D-aware generative model that inherits all of GIRAFFE's controllable features
-                 while generating high-quality, high-resolution images (<math>512<sup>2</sup></math> resolution and above). The key idea is to leverage a style-based
-                 neural renderer, and to independently generate the foreground and background to force their disentanglement while imposing
-                 consistency constraints to stitch them together to composite a coherent final image. We demonstrate state-of-the-art 3D
-                 controllable high-resolution image generation on multiple natural image datasets.
-            </p>
-        </div>
+        <!-- <div class="textContainer"> -->
+        <p id="abstractText">
+            3D-aware generative models have shown that the introduction of 3D information can lead to more controllable image generation.
+                In particular, the current state-of-the-art model GIRAFFE can control each object's rotation, translation, scale, and scene
+                camera pose without corresponding supervision. However, GIRAFFE only operates well when the image resolution is low.
+                We propose GIRAFFE HD, a high-resolution 3D-aware generative model that inherits all of GIRAFFE's controllable features
+                while generating high-quality, high-resolution images (<math>512<sup>2</sup></math> resolution and above). The key idea is to leverage a style-based
+                neural renderer, and to independently generate the foreground and background to force their disentanglement while imposing
+                consistency constraints to stitch them together to composite a coherent final image. We demonstrate state-of-the-art 3D
+                controllable high-resolution image generation on multiple natural image datasets.
+        </p>
+        <!-- </div> -->
 
+        <h2>Controllable Scene Generation</h2>
+        <p id="discText">
+            GIRAFFE HD preserves all of GIRAFFE's 3D controllable features while generating images at significantly higher quality and resolution.
+            Importantly, compared to GIRAFFE, our background remains more consistent when the foreground changes. Below we show samples of CompCar
+            <math>512<sup>2</sup></math> and FFHQ <math>1024<sup>2</sup></math>.
+        </p>
         <div id="imgContainer">
-            <h2>Controllable Scene Generation</h2>
-
             <div class="rowDiscContainer">
                 <div class="rowContainer">
                     <video autoplay loop muted playsinline controls>
