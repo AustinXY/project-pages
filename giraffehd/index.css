@@ -11,7 +11,7 @@ body {
 
 .imgTxt {
     text-align: center;
-    font-weight: 1000;
+    /* font-weight: 1000; */
 }
 
 .masterContainer {
@@ -75,7 +75,7 @@ video {
 .imgTextContainer {
     /* padding-top: 1em; */
     /* order: 1; */
-    /* width: 1000px; */
+    width: 40%;
     font-size: 20px;
     margin-top: 10px;
 }
