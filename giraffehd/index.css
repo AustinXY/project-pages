@@ -112,7 +112,6 @@ h2 {
 
 @media (max-width:480px) {
     .imgTxt {
-        /* font-weight: 10; */
         font-size: 16px;
     }
 }
