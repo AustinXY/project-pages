@@ -59,6 +59,11 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 40px;
+    align-items: center;
+}
+.rowImg {
+    width: 100%;
+    max-width: 1000px;
 }
 
 #imgContainer {
@@ -149,6 +154,12 @@ pre {
     margin-top: 30px;
     margin-bottom: 21px;
     font-weight: 600;
+}
+
+.imgTxt {
+    width: 40%;
+    font-size: 20px;
+    margin-top: 8px;
 }
 
 @media (max-width:480px) {
